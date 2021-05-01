@@ -1,9 +1,12 @@
 import Movies from '../components/Movies'
+import Nav from '../components/Nav'
 import requests from '../utils/requests'
 
 export default function Home({ results }) {
   return (
     <div>
+      <Nav />
+
       <Movies movies={results} />
     </div>
   )

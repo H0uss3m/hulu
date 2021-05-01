@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Nav from '../components/Nav'
 import Header from '../components/Header'
 
 import '../styles/globals.css'
@@ -13,7 +12,6 @@ function MyApp({ Component, pageProps }) {
         <link rel='icon' href='/favicon.svg' />
       </Head>
       <Header />
-      <Nav />
       <Component {...pageProps} />
     </div>
   )
